@@ -1,12 +1,3 @@
-if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
-{
-    $arguments = "-NoProfile -ExecutionPolicy Bypass -File `"" + $MyInvocation.MyCommand.Path + "`""
-
-    Start-Process powershell -Verb RunAs -ArgumentList $arguments
-
-    exit
-}
-
 Clear-Host
 
 function Show-Menu {
@@ -45,3 +36,5 @@ while ($true) {
     [void][System.Console]::ReadLine()
     Clear-Host
 }
+
+Read-Host -Prompt "Press Enter to exit..."
