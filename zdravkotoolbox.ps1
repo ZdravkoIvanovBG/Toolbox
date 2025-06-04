@@ -9,7 +9,6 @@ function Show-Menu {
     Write-Host "[1] Clear Temp Files" -ForegroundColor White
     Write-Host "[2] Activate Windows/Office" -ForegroundColor White
     Write-Host "[3] Show PC Info" -ForegroundColor White
-    Write-Host "[4] Disk Usage Analyzer" -ForegroundColor White
     Write-Host "[0] Exit" -ForegroundColor Red
     Write-Host "=====================================" -ForegroundColor DarkCyan
 }
