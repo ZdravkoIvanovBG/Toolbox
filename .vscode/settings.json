@@ -1,0 +1,13 @@
+{
+"[powershell]": {
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.hover.enabled": false
+}
+
+}
